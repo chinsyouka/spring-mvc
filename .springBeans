@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.7.0.201506251244-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>src/main/resources/config/spring-mybatis.xml</config>
+	</configs>
+	<autoconfigs>
+		<config>java:tlab.spring.mvc.relationalDataAaccess.Application</config>
+		<config>java:tlab.spring.mvc.mybatis.Application</config>
+		<config>java:tlab.spring.mvc.consumingRest.Application</config>
+		<config>java:tlab.spring.mvc.restful1.Application</config>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>
